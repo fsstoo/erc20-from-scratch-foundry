@@ -1,0 +1,30 @@
+# Build artifacts
+cache/
+out/
+
+# Broadcast logs 
+broadcast/*
+!broadcast/.gitkeep
+
+# Foundry local chain data
+anvil/
+anvil-data/
+
+# Environment variables
+.env
+
+# Coverage reports
+coverage/
+lcov.info
+
+# Docs 
+docs/
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+
+# VSCode / IDE
+.vscode/
+.idea/
+
